@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/styles.css">
   <title>Inicio</title>
 </head>
 <body>
   <header>
     <h1>Tienda <span>Muebles</span></h1>
-    <hr>
     <nav>
       <ul>
         <li><a href=index.html>Inicio</a></li>
@@ -20,13 +20,11 @@
       </ul>
     </nav>
   </header>
-  <div>
-    <img src="img/principal.jpg" alt="Imagen de una habitación"/>
-  </div>
+  <div class="slider"></div>
   <main>
-    <section>
+    <section class="productos">
       <h2>Categorías de Productos</h2>
-      <div>
+      <div class="contenedorproductos">
         <div>
           <img src="img/categoria1.jpg" alt="Imagen categoria oficina">
           <a href="#">Oficina</a>
@@ -41,7 +39,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="nosotros">
       <img src="img/nosotros.jpg" alt="Imagen sala - sobre nosotros">
       <div>
         <h2>Sobre Nosotros</h2>
@@ -51,15 +49,15 @@
           delectus necessitatibus iusto, dolore vel quod blanditiis!</p>
       </div>
     </section>
-    <section>
+    <section class="lista-section">
       <h2>Nuestros Productos</h2>
-      <div>
+      <div class="lista">
         <article>
           <img src="img/producto1.jpg" alt="Imagen producto 1">
           <div>
             <h3>Producto 1</h3>
-            <p>Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris.</p>
-            <p>$1,000,000.00</p>
+            <p class="text">Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris.</p>
+            <p class="price">$1,000,000.00</p>
             <button>AGREGAR AL CARRITO</button>
           </div>
         </article>
@@ -67,8 +65,8 @@
           <img src="img/producto2.jpg" alt="Imagen producto 2">
           <div>
             <h3>Producto 2</h3>
-            <p>Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris.</p>
-            <p>$1,000,000.00</p>
+            <p class="text">Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris.</p>
+            <p class="price">$1,000,000.00</p>
             <button>AGREGAR AL CARRITO</button>
           </div>
         </article>
@@ -76,8 +74,8 @@
           <img src="img/producto3.jpg" alt="Imagen producto 3">
           <div>
             <h3>Producto 3</h3>
-            <p>Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris.</p>
-            <p>$1,000,000.00</p>
+            <p class="text">Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris.</p>
+            <p class="price">$1,000,000.00</p>
             <button>AGREGAR AL CARRITO</button>
           </div>
         </article>
@@ -85,8 +83,8 @@
           <img src="img/producto4.jpg" alt="Imagen producto 4">
           <div>
             <h3>Producto 4</h3>
-            <p>Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris.</p>
-            <p>$1,000,000.00</p>
+            <p class="text">Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris.</p>
+            <p class="price">$1,000,000.00</p>
             <button>AGREGAR AL CARRITO</button>
           </div>
         </article>
@@ -94,8 +92,8 @@
           <img src="img/producto5.jpg" alt="Imagen producto 5">
           <div>
             <h3>Producto 5</h3>
-            <p>Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris.</p>
-            <p>$1,000,000.00</p>
+            <p class="text">Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris.</p>
+            <p class="price">$1,000,000.00</p>
             <button>AGREGAR AL CARRITO</button>
           </div>
         </article>
@@ -103,18 +101,17 @@
           <img src="img/producto6.jpg" alt="Imagen producto 6">
           <div>
             <h3>Producto 6</h3>
-            <p>Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris.</p>
-            <p>$1,000,000.00</p>
+            <p class="text">Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec mauris.</p>
+            <p class="price">$1,000,000.00</p>
             <button>AGREGAR AL CARRITO</button>
           </div>
         </article>
       </div>
     </section>
   </main>
-  <hr>
   <footer>
-    <div>
-      <div>
+    <div class="foot-content">
+      <div class="foot">
         <h3>Categorías</h3>
         <nav>
           <ul>
@@ -126,7 +123,7 @@
           </ul>
         </nav>
       </div>
-      <div>
+      <div class="foot">
         <h3>Sobre Nosotros</h3>
         <nav>
           <ul>
@@ -138,7 +135,7 @@
           </ul>
         </nav>
       </div>
-      <div>
+      <div class="foot">
         <h3>Soporte</h3>
         <nav>
           <ul>
